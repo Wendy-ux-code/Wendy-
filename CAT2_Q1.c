@@ -14,21 +14,21 @@
  
  
      int main ( ) {
-         struct employee details {
-             "John Doe",
-             12345,
-             "Human resources",
-              55000.50,
-             "john.doe@company.com",
-         };
+         struct employee details ;
+        
+            strcpy(details.name, "John Doe"),
+            details.id=12345,
+            strcpy (details.department,"Human resources"),
+             details.salary=55000.50,
+           strcpy(details.email,"john.doe@company.com"),
          
-         
+        
          printf ("Name: %s\n",details.name);
          printf("ID: %d\n",details.id);
          printf("Department: %s\n",details.department);
          printf("Salary:%.2f\n",details.salary);
          printf("Email: %s\n",details.email);
-         
+        
          
          return 0;
 	
